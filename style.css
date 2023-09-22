@@ -1,0 +1,855 @@
+/* -----------------mobile view code css---------------------------------------------- */
+
+@media (max-width:992px) {
+    
+    /* page 1 -------------------------------- */
+
+    .page1 {
+        width: 100%;
+    }
+
+    .headlist {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #AFD4E2;
+    }
+
+    .listview {
+        padding-left: 50px;
+    }
+
+    .frttitle:hover {
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .list:hover {
+        color: blue;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .built {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftbld {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -30px;
+    }
+
+
+    .headline {
+        width: 100%;
+    }
+
+    .arrowimg {
+        display: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    #btn1:hover {
+        color: #1E3240;
+        background-color: white;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    #btn2:hover {
+        color: #1E3240;
+        background-color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .rightbld {
+        width: 100%;
+
+    }
+
+    .rightslh {
+        display: none;
+    }
+
+    .leftslh {
+        display: none;
+    }
+
+    .buildimg {
+        width: 900px;
+        margin-right: -245px;
+    }
+
+/* page 2 -------------------------------- */
+
+    .page2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftpart {
+        width: 100%;
+        margin-left: 150px;
+        margin-top: -100px;
+    }
+
+    .leftimgbld {
+        width: 100%;
+    }
+
+    .rightpart {
+        width: 100%;
+        display: grid;
+        margin-left: 170px;
+        margin-top: -300px;
+    }
+
+    .estatedubai {
+        width: 100%;
+    }
+
+/* page 3 -------------------------------- */
+
+    .page3 {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .leftpropara {
+        width: 100%;
+        margin-left: 95px;
+        overflow: hidden;
+    }
+
+    .doublearw {
+        display: none;
+    }
+
+    .card1 {
+        width: 100%;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+
+    .card2 {
+        width: 330px;
+        height: 490px;
+    }
+
+/* page 4 -------------------------------- */
+
+    .page4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cmthead {
+        width: 100%;
+    }
+
+    .temp {
+        width: 100%;
+    }
+
+    .backarw {
+        display: none;
+    }
+
+    .girlimg {
+        width: 100%;
+        float: right;
+    }
+
+    .left4 {
+        width: 100%;
+        margin-left: 210px;
+        margin-top: 40px;
+    }
+
+    .right4 {
+        width: 100%;
+        margin-top: 400px;
+        margin-left: -430px;
+    }
+
+    .slhtwo {
+        display: none;
+    }
+
+    .frwordarw {
+        display: none;
+    }
+
+/* page 5 -------------------------------- */
+
+    .page5 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lefthomepart {
+        width: 100%;
+        margin-left: 130px;
+        margin-top: -10px;
+    }
+
+    .Contactpart {
+        width: 100%;
+        display: grid;
+        margin-left: 270px;
+        margin-top: -100px;
+    }
+
+    .desc {
+        width: 100%;
+    }
+
+/* page 6 -------------------------------- */
+
+    .page6 {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .firstheadall {
+        width: 100%;
+    }
+
+    .secondheadall {
+        width: 100%;
+    }
+}
+
+/* ---------------desktop view code css------------------------------------- */
+
+@media (min-width:991px) {
+    .page1 {
+        width: 100%;
+    }
+
+    .page2 {
+        width: 100%;
+    }
+
+    .page3 {
+        width: 100%;
+    }
+
+    .page4 {
+        width: 100%;
+    }
+
+    .page5 {
+        width: 100%;
+    }
+
+    .page6 {
+        width: 100%;
+    }
+}
+
+/* ---------------------overall design css----------------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------page one design---------------------------- */
+.page1 {
+    background-color: #AFD4E2;
+    width: auto;
+    height: auto;
+}
+
+.frttitle {
+    width: 50%;
+    list-style: none;
+    padding: 20px 135px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.listview {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+}
+
+.headlist {
+    width: 100%;
+    background-color: rgba(103, 179, 201, 0.247);
+    display: flex;
+}
+
+.list {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E3240;
+    padding: 22px 50px;
+}
+
+.built {
+    color: #1E3240;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    display: flex;
+}
+
+.leftbld {
+    width: 52%;
+    height: auto;
+}
+
+.headline {
+    margin-left: 135px;
+    margin-top: 150px;
+    font-size: 85px;
+}
+
+.leftslh {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 250px;
+}
+
+.rightslh {
+    position: absolute;
+    margin-left: 423px;
+    margin-top: 125px;
+}
+
+.para {
+    margin-left: 135px;
+    padding: 10px 0px;
+    font-family: Mulish;
+}
+
+.btn {
+    margin-left: 135px;
+    padding-top: 30px;
+}
+
+#btn1 {
+    background-color: #1E3240;
+    padding: 20px;
+    width: 120px;
+    margin-right: 20px;
+    color: white;
+    border: none;
+}
+
+#btn2 {
+    padding: 20px;
+    width: 120px;
+    background-color: #AFD4E2;
+    color: #1E3240;
+    border: 1px solid #1E3240;
+}
+
+.arrowimg {
+    margin-left: 535px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.rightbld {
+    width: 48%;
+    height: auto;
+}
+
+.buildimg {
+    float: right;
+    margin-top: -5%;
+}
+
+/* --------------------page second design---------------------------- */
+.page2 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.leftpart {
+    width: 48%;
+}
+
+.leftimgbld {
+    width: 445px;
+    height: 500px;
+    margin: 150px 0px 150px 135px;
+}
+
+.rightpart {
+    width: 52%;
+}
+
+.estatedubai {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 199px 165px 40px 70px;
+}
+
+.estatepara {
+    color: #BDBDBD;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px 0px 40px 70px;
+}
+
+.companydts {
+    display: flex;
+}
+
+.pre {
+    color: #AFD4E2;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px 40px 8px 70px;
+}
+
+.frtnum {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px 59px 0px 70px;
+}
+
+.year {
+    margin: 0px 40px 8px 0px;
+}
+
+.yearnum {
+    margin: 0px;
+}
+
+.exp {
+    margin: 0px 40px 8px 0px;
+}
+
+.expnum {
+    margin: 0px;
+}
+
+/* --------------------page third design---------------------------- */
+.page3 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.gopjt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 48px 0px 0px 135px;
+}
+
+.magna {
+    color: #BDBDBD;
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px 0px 84px 135px;
+}
+
+.doublearw {
+    width: 76px;
+    height: 32px;
+    float: right;
+    margin: -110px 40px 0px 0px;
+}
+
+.allcard {
+    margin-left: 135px;
+}
+
+.card1 {
+    width: 330px;
+    height: 490px;
+    margin-right: 30px;
+}
+
+.card2 {
+    width: 122px;
+    height: 490px;
+}
+
+/* --------------------page forth design---------------------------- */
+.page4 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.cmthead {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px 165px 12px 165px;
+}
+
+.temp {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px 165px 0px 165px;
+}
+
+.imagerow {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.left4 {
+    width: 50%;
+    height: auto;
+}
+
+.backarw {
+    width: 22px;
+    height: 22px;
+    margin: 237px 67px 295px 50px;
+}
+
+.girlimg {
+    width: 430px;
+    height: 350px;
+    margin: 0px 0px 126px 0px;
+}
+
+.right4 {
+    width: 50%;
+    height: auto;
+}
+
+.slhtwo {
+    width: 50px;
+    height: 28px;
+    float: left;
+    margin: 110px 655px 19px 5px;
+}
+
+.drmhome {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 5px;
+}
+
+.temppara {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 6px;
+}
+
+.frwordarw {
+    width: 22px;
+    height: 22px;
+    margin: 0px 0px 0px 110px;
+}
+
+.sim {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px 0px 0px 6px;
+}
+
+.Art {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 6px;
+}
+
+/* --------------------page fifth design---------------------------- */
+.page5 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.lefthomepart {
+    background-color: white;
+    width: 50%;
+    height: auto;
+}
+
+.lefthome {
+    width: 430px;
+    height: 500px;
+    margin: 100px 0px 100px 140px;
+}
+
+.Contactpart {
+    background-color: white;
+    width: 50%;
+    height: auto;
+}
+
+.Contactpara {
+    color: #1E3240;
+    font-family: Mulish;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 110px 165px 12px 6px;
+}
+
+.paracon {
+    color: #BDBDBD;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px 165px 40px 6px;
+}
+
+.frtname {
+    color: #BDBDBD;
+    background-color: white;
+    width: 255px;
+    height: 50px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px;
+    margin: 0px 20px 18px 6px;
+    border: 1px solid #1E3240;
+}
+
+.desc {
+    color: #BDBDBD;
+    background-color: white;
+    width: 540px;
+    height: 120px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 14px 427px 84px 18px;
+    margin: 0px 30px 0px 6px;
+    border: 1px solid #1E3240;
+}
+
+.getpara {
+    display: flex;
+}
+
+.quote {
+    background-color: #1E3240;
+    color: white;
+    width: 124px;
+    height: 53px;
+    padding: 18px 24px 18px 24px;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #1E3240;
+    margin: 40px 18px 0px 6px;
+}
+
+.spam {
+    color: #BDBDBD;
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 59px 0px 128px 0px;
+}
+
+/* --------------------page sixth design---------------------------- */
+.page6 {
+    background-color: #1E3240;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.firstheadall {
+    width: 50%;
+    height: auto;
+}
+
+.footerhead {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 90px 0px 12px 142px;
+}
+
+.identify {
+    display: flex;
+}
+
+.locate {
+    width: 16px;
+    height: 16px;
+    margin: 2px 8px 32px 140px;
+}
+
+.address {
+    color: #BDBDBD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px 0px 12px 0px;
+}
+
+.phone {
+    margin: 2px 8px 16px 140px;
+}
+
+.callno {
+    margin: 0px 0px 12px 0px;
+}
+
+.email {
+    margin: 2px 8px 121px 140px;
+}
+
+.emailid {
+    margin: 0px 0px 119px 0px;
+}
+
+.copyright {
+    color: #BDBDBD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px 0px 45px 140px;
+}
+
+.secondheadall {
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
+.quick {
+    padding: 90px 0px 12px 8px;
+}
+
+.legal {
+    padding: 90px 0px 12px 76px;
+}
+
+.media {
+    padding: 90px 0px 12px 76px;
+}
+
+.subname {
+    color: #BDBDBD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 2px 0px 12px 8px;
+}
+
+.llink {
+    padding: 2px 0px 12px 76px;
+}
