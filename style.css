@@ -1,34 +1,38 @@
 /* -----------------mobile view code css---------------------------------------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 @media (max-width:992px) {
     
     /* page 1 -------------------------------- */
 
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Mulish', sans-serif;
+    }
     .page1 {
         width: 100%;
+        overflow: hidden;
     }
 
     .headlist {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: #AFD4E2;
+       
+        font-size: 18px;
+    }
+    
+    b{
+        font-weight: bold;
     }
 
-    .listview {
-        padding-left: 50px;
+ 
+    .list {
+        font-size: 14px;
     }
 
-    .frttitle:hover {
-        color: white;
-        font-weight: bolder;
-        font-size: 25px;
-        cursor: pointer;
-    }
-
-    .list:hover {
-        color: blue;
-        font-weight: bolder;
+    .list:hover{
+        text-decoration: underline;
         cursor: pointer;
     }
 
@@ -87,21 +91,26 @@
 
     .buildimg {
         width: 900px;
-        margin-right: -245px;
+        margin-right: -220px;
     }
 
+
+    .container{
+        overflow: hidden;
+    }
+    
 /* page 2 -------------------------------- */
 
     .page2 {
         width: 100%;
         display: flex;
         flex-direction: column;
+        padding-top: 50px;
+        overflow: hidden;
     }
 
     .leftpart {
         width: 100%;
-        margin-left: 150px;
-        margin-top: -100px;
     }
 
     .leftimgbld {
@@ -111,8 +120,6 @@
     .rightpart {
         width: 100%;
         display: grid;
-        margin-left: 170px;
-        margin-top: -300px;
     }
 
     .estatedubai {
@@ -128,7 +135,6 @@
 
     .leftpropara {
         width: 100%;
-        margin-left: 95px;
         overflow: hidden;
     }
 
@@ -138,7 +144,6 @@
 
     .card1 {
         width: 100%;
-        margin-left: 0px;
         overflow: hidden;
     }
 
@@ -151,16 +156,17 @@
 
     .page4 {
         width: 100%;
-        display: flex;
-        flex-direction: column;
+        overflow: hidden;
     }
 
     .cmthead {
         width: 100%;
+        display: contents;
     }
 
     .temp {
-        width: 100%;
+        width: 800px;
+        margin-left: -190px;
     }
 
     .backarw {
@@ -169,19 +175,17 @@
 
     .girlimg {
         width: 100%;
-        float: right;
     }
 
     .left4 {
         width: 100%;
-        margin-left: 210px;
         margin-top: 40px;
     }
 
     .right4 {
         width: 100%;
         margin-top: 400px;
-        margin-left: -430px;
+        margin-left: -730px;
     }
 
     .slhtwo {
@@ -198,19 +202,21 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
 
     .lefthomepart {
         width: 100%;
-        margin-left: 130px;
-        margin-top: -10px;
+        padding-top: 100px;
     }
 
     .Contactpart {
         width: 100%;
-        display: grid;
-        margin-left: 270px;
-        margin-top: -100px;
+        display: contents;
+    }
+
+    form{
+        display: contents;
     }
 
     .desc {
@@ -267,90 +273,75 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
 
 /* --------------------page one design---------------------------- */
 .page1 {
     background-color: #AFD4E2;
-    width: auto;
-    height: auto;
-}
-
-.frttitle {
-    width: 50%;
-    list-style: none;
-    padding: 20px 135px;
-    font-family: Mulish;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.listview {
-    width: 50%;
-    list-style: none;
-    display: flex;
-    margin-left: 40px;
+    padding-left: 160px;
 }
 
 .headlist {
-    width: 100%;
-    background-color: rgba(103, 179, 201, 0.247);
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px 0px 0px;
+    font-size: 18px;
+    position: relative;
+    z-index: 99;
+}
+
+b{
+    font-weight: bold;
 }
 
 .list {
-    font-family: Mulish;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1E3240;
-    padding: 22px 50px;
+    padding-left: 80px;
 }
-
+.list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .built {
     color: #1E3240;
     width: 100%;
     height: auto;
-    margin-top: 0px;
     display: flex;
 }
 
 .leftbld {
     width: 52%;
     height: auto;
+    padding-top: 130px;
 }
 
 .headline {
-    margin-left: 135px;
-    margin-top: 150px;
     font-size: 85px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.6mm;
 }
 
 .leftslh {
     position: absolute;
-    margin-left: 30px;
-    margin-top: 250px;
+    padding-left: 10px;
+    padding-top: 250px;
 }
 
 .rightslh {
     position: absolute;
-    margin-left: 423px;
-    margin-top: 125px;
+    padding-left: 367px;
+    padding-top: 140px;
 }
 
 .para {
-    margin-left: 135px;
     padding: 10px 0px;
     font-family: Mulish;
 }
 
 .btn {
-    margin-left: 135px;
     padding-top: 30px;
 }
 
@@ -372,7 +363,7 @@
 }
 
 .arrowimg {
-    margin-left: 535px;
+    margin-left: 470px;
     position: absolute;
     margin-top: -20px;
 }
@@ -380,14 +371,21 @@
 .rightbld {
     width: 48%;
     height: auto;
+    margin-top: -25px;
 }
 
 .buildimg {
+    width: 1300px;
     float: right;
-    margin-top: -5%;
 }
 
 /* --------------------page second design---------------------------- */
+
+
+.container{
+    padding: 0px 160px;
+}
+
 .page2 {
     background-color: white;
     width: 100%;
@@ -396,160 +394,151 @@
 }
 
 .leftpart {
-    width: 48%;
+    width: auto;
 }
 
 .leftimgbld {
     width: 445px;
     height: 500px;
-    margin: 150px 0px 150px 135px;
+    margin: 50px 70px 0px 0px ;
 }
 
 .rightpart {
-    width: 52%;
+    width: auto;
 }
 
 .estatedubai {
-    color: #1E3240;
-    font-family: Mulish;
+    color: black;
     font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 199px 165px 40px 70px;
+    font-weight: bold;
+    padding: 100px 0px 25px 0px;
 }
 
 .estatepara {
     color: #BDBDBD;
-    font-family: Mulish;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 0px 0px 40px 70px;
+    padding: 0px 0px 40px 0px;
 }
 
 .companydts {
+    width: 600px;
     display: flex;
 }
 
 .pre {
+    width: 180px;
     color: #AFD4E2;
-    font-family: Mulish;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 0px 40px 8px 70px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding: 0px 40px 0px 0px;
 }
 
 .frtnum {
     color: #1E3240;
-    font-family: Mulish;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 300;
-    line-height: 58px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 0px 59px 0px 70px;
+    padding: 15px 0px 0px 20px;
 }
 
-.year {
-    margin: 0px 40px 8px 0px;
-}
 
-.yearnum {
-    margin: 0px;
-}
-
-.exp {
-    margin: 0px 40px 8px 0px;
-}
-
-.expnum {
-    margin: 0px;
-}
 
 /* --------------------page third design---------------------------- */
 .page3 {
     background-color: white;
     width: 100%;
     height: auto;
+    padding: 150px 0px 0px 0px;
 }
 
+.leftpropara{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .gopjt {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 48px 0px 0px 135px;
+    font-family:sans-serif;
+    font-weight: 300;
+    font-size: 25px;
 }
 
 .magna {
     color: #BDBDBD;
-    font-family: Mulish;
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 0px 0px 84px 135px;
+    padding: 25px 0px 84px 0px;
 }
 
-.doublearw {
-    width: 76px;
-    height: 32px;
-    float: right;
-    margin: -110px 40px 0px 0px;
+.forwardslide , .backslide{
+    width: 22px;
+    height: 22px;
+    margin-left: 6px;
+    cursor: pointer;
 }
 
 .allcard {
-    margin-left: 135px;
+    display: flex;
+    overflow-x: scroll;
 }
 
-.card1 {
-    width: 330px;
-    height: 490px;
-    margin-right: 30px;
+
+.areaback{
+    width: 310px;
+    height: 95px;
+    font-family: sans-serif;
+    background-color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0 0 5px 2px #d2d2d257;
+    margin: 0 20px 40px 20px;
+    padding: 10px;
+    position: relative;
+    top: -40px;
 }
 
-.card2 {
-    width: 122px;
-    height: 490px;
+.img1{
+    padding-left: 10px;
 }
+
+.img2{
+    padding: 0px 20px 0px 20px;
+}
+
+.img3{
+    padding-right:20px;
+}
+
+.areaback p{
+    padding: 15px 0px 0px 0px;
+}
+
+
+
+
 
 /* --------------------page forth design---------------------------- */
 .page4 {
     background-color: white;
     width: 100%;
     height: auto;
+    padding-top: 50px;
 }
 
 .cmthead {
     color: #1E3240;
-    font-family: Mulish;
+    font-family: sans-serif;
     font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0em;
+    font-weight: 300;
     text-align: center;
     padding: 0px 165px 12px 165px;
 }
 
 .temp {
-    color: #1E3240;
-    font-family: Mulish;
+    color: #BDBDBD;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
+    font-weight: 200;
     text-align: center;
-    padding: 0px 165px 0px 165px;
+    padding: 10px 165px 0px 165px;
 }
 
 .imagerow {
@@ -560,162 +549,114 @@
 }
 
 .left4 {
-    width: 50%;
-    height: auto;
+    margin-top: 70px;
 }
 
 .backarw {
-    width: 22px;
-    height: 22px;
-    margin: 237px 67px 295px 50px;
+  display: none;
 }
 
 .girlimg {
-    width: 430px;
+    width: 445px;
     height: 350px;
     margin: 0px 0px 126px 0px;
 }
 
 .right4 {
-    width: 50%;
-    height: auto;
+   padding: 70px 0px 0px 70px;
 }
 
 .slhtwo {
     width: 50px;
     height: 28px;
-    float: left;
-    margin: 110px 655px 19px 5px;
 }
 
 .drmhome {
-    color: #1E3240;
-    font-family: Mulish;
+    color: #101b22;
     font-size: 32px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 5px;
+    font-weight: 200;
+    padding: 30px 0px;
 }
 
 .temppara {
     color: #1E3240;
-    font-family: Mulish;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 6px;
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 .frwordarw {
-    width: 22px;
-    height: 22px;
-    margin: 0px 0px 0px 110px;
+   display: none;
 }
 
 .sim {
-    color: #1E3240;
-    font-family: Mulish;
+    color: #0c141a;
     font-size: 25px;
-    font-weight: 600;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 15px 0px 0px 6px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 25px 0px 20px 0px;
 }
 
 .Art {
-    color: #1E3240;
-    font-family: Mulish;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 6px;
+    color: #bdbdbde7;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 /* --------------------page fifth design---------------------------- */
 .page5 {
     background-color: white;
     width: 100%;
-    height: auto;
     display: flex;
+    padding-bottom: 100px;
 }
 
 .lefthomepart {
     background-color: white;
-    width: 50%;
-    height: auto;
 }
 
 .lefthome {
-    width: 430px;
+    width: 445px;
     height: 500px;
-    margin: 100px 0px 100px 140px;
 }
 
 .Contactpart {
     background-color: white;
-    width: 50%;
-    height: auto;
+    padding-left: 70px;
 }
 
 .Contactpara {
-    color: #1E3240;
-    font-family: Mulish;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 110px 165px 12px 6px;
+    color: black;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 30px 0px;
 }
 
 .paracon {
     color: #BDBDBD;
-    font-family: Mulish;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 0px 165px 40px 6px;
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 75px;
 }
 
 .frtname {
     color: #BDBDBD;
     background-color: white;
-    width: 255px;
-    height: 50px;
-    font-family: Mulish;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
+    width: 230px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 200;
     padding: 15px;
-    margin: 0px 20px 18px 6px;
-    border: 1px solid #1E3240;
+    margin: 0px 10px 14px 0px;
 }
 
 .desc {
     color: #BDBDBD;
     background-color: white;
-    width: 540px;
-    height: 120px;
-    font-family: Mulish;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 14px 427px 84px 18px;
-    margin: 0px 30px 0px 6px;
-    border: 1px solid #1E3240;
+    width: 475px;
+    height: 75px;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 15px;
 }
 
 .getpara {
@@ -725,40 +666,31 @@
 .quote {
     background-color: #1E3240;
     color: white;
-    width: 124px;
-    height: 53px;
-    padding: 18px 24px 18px 24px;
-    font-family: Mulish;
-    font-size: 14px;
+    width: 154px;
+    height: 50px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: left;
     border: 1px solid #1E3240;
-    margin: 40px 18px 0px 6px;
+    margin: 18px 6px 0px 0px;
 }
 
 .spam {
     color: #BDBDBD;
-    font-family: Mulish;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
     text-align: left;
-    margin: 59px 0px 128px 0px;
+    padding-top: 35px;
 }
 
 /* --------------------page sixth design---------------------------- */
 .page6 {
     background-color: #1E3240;
     width: 100%;
-    height: 400px;
     display: flex;
 }
 
 .firstheadall {
-    width: 50%;
+    padding-right: 230px;
     height: auto;
 }
 
@@ -767,13 +699,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
     text-align: left;
     padding: 90px 0px 12px 142px;
 }
 
 .identify {
+    padding-top: 8px;
     display: flex;
 }
 
@@ -786,12 +717,9 @@
 .address {
     color: #BDBDBD;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 0px 0px 12px 0px;
+    padding: 0px 0px 12px 0px;
 }
 
 .phone {
@@ -799,7 +727,7 @@
 }
 
 .callno {
-    margin: 0px 0px 12px 0px;
+    padding: 0px 0px 12px 0px;
 }
 
 .email {
@@ -807,7 +735,7 @@
 }
 
 .emailid {
-    margin: 0px 0px 119px 0px;
+    padding: 0px 0px 119px 0px;
 }
 
 .copyright {
@@ -815,15 +743,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 0px 0px 45px 140px;
+    padding: 0px 0px 30px 140px;
 }
 
 .secondheadall {
-    width: 50%;
-    height: auto;
     display: flex;
 }
 
@@ -842,11 +765,8 @@
 .subname {
     color: #BDBDBD;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
     padding: 2px 0px 12px 8px;
 }
 
