@@ -7,19 +7,19 @@
     <!--------------------page one tags-------------------------------->
     <div class="page1">
       <div class="headlist">
-        <div class="frttitle"><li class="listfrt">LUGAR</li></div>
+        <b>LUGAR</b>
         <div class="listview">
-        <li class="list">HOME</li>
-        <li class="list">ABOUT</li>
-        <li class="list">PROJECT</li>
-        <li class="list">CONTACT</li>
+        <a class="list">HOME</a>
+        <a class="list">ABOUT</a>
+        <a class="list">PROJECT</a>
+        <a class="list">CONTACT</a>
         </div>
       </div>
       <div class="built">
         <div class="leftbld">
           <h1 class="headline">
             A home is  <br />
-            built with love  <br />
+            built with love  
             and dreams
           </h1>
           <img class="arrowimg" src="./images/arrow.png" />
@@ -38,7 +38,7 @@
     </div>
 
     <!--------------------page second tags-------------------------------->
-
+  <div class="container">
     <div class="page2">
       <div class="leftpart">
         <img class="leftimgbld" src="./images/left build.png" />
@@ -58,15 +58,15 @@
         <div class="companydts">
           <div>
             <h4 class="pre">PREVIOUS PROJECTS</h4>
-            <h1 class="frtnum">34+</h1>
+            <h2 class="frtnum"><span id="num1" data-val="34">00</span><span>+</span></h2>
           </div>
           <div>
-            <h4 class="pre year">YEARS EXPERIENCE</h4>
-            <h1 class="frtnum yearnum">20y</h1>
+            <h4 class="pre">YEARS EXPERIENCE</h4>
+            <h2 class="frtnum"><span id="num2"  data-val="20">00</span><span>y</span></h2>
           </div>
           <div>
-            <h4 class="pre exp">ONGOING PROJECTS</h4>
-            <h1 class="frtnum expnum">12</h1>
+            <h4 class="pre">ONGOING PROJECTS</h4>
+            <h2 class="frtnum" id="num3" data-val="12">00</h2>
           </div>
         </div>
       </div>
@@ -76,17 +76,46 @@
 
     <div class="page3">
       <div class="leftpropara">
-      <h1 class="gopjt">ONGOING PROJECTS</h1>
-      <h4 class="magna">
-        Turpis facilisis tempor pulvinar in lobortis ornare magna.
-      </h4>
+        <div>
+        <h1 class="gopjt">ONGOING PROJECTS</h1>
+        <h4 class="magna">Turpis facilisis tempor pulvinar in lobortis ornare magna.</h4>
+        </div>
+        <div>
+        <img class="forwardslide" src="./images/backsld.png" id="leftslidebtn"/>
+        <img class="backslide" src="./images/forwardsld.png" id="rightslidebtn"/>
+        </div>
       </div>
-      <img class="doublearw" src="./images/doublearrow.png" />
+      
+      
       <div class="allcard">
-        <img class="card1" src="./images/Card 1.png" />
-        <img class="card1" src="./images/Card 2.png" />
-        <img class="card1" src="./images/Card 3.png" />
-        <img class="card2" src="./images/Card 4.png" />
+        <div class="img1">
+        <img src="./images/img1.png"/>
+        <div class="areaback">
+          <p>Vintage villa</p>
+          <p><img class="langimg" src="./images/land.png"> 2715 Ash Dr. San Jose, Dubai</p>
+        </div>
+        </div> 
+        <div class="img2">
+        <img src="./images/img2.png" />
+        <div class="areaback">
+          <p>Tonga villa</p>
+          <p><img class="langimg" src="./images/land.png"> 1901 Thornridge Cir. Shiloh 81063</p>
+        </div>
+        </div> 
+        <div class="img3">
+        <img src="./images/img3.png" />
+        <div class="areaback">
+          <p>Penthouse</p>
+          <p><img class="langimg" src="./images/land.png"> 2464 Royal Ln. Mesa, 45463</p>
+        </div>
+        </div>
+        <div>
+        <img class="img4" src="./images/img2.png" />
+        <div class="areaback">
+          <p>Smart city</p>
+          <p><img class="langimg" src="./images/land.png"> 2715 Ash Dr. San Jose, Dubai</p>
+        </div>
+        </div> 
       </div>
     </div>
 
@@ -101,16 +130,14 @@
 
     <div class="imagerow">
       <div class="left4">
-        <img class="backarw" src="./images/arrow-back.png" />
         <img class="girlimg" src="./images/girl.png" />
       </div>
       <div class="right4">
-        <img class="slhtwo" src="./images/slashtwo.png" />
+        <div><img class="slhtwo" src="./images/slashtwo.png" /></div>
         <h1 class="drmhome">Dream house isn’t dream anymore</h1>
         <h4 class="temppara">
-          Semper arcu mauris aliquam lacus. Massa erat <br />
+          Semper arcu mauris aliquam lacus. Massa erat 
           vitae ultrices pharetra scelerisque. Ipsum, turpis
-          <img class="frwordarw" src="./images/arrow-forward.png" /> <br />
           facilisis tempor pulvinar.
         </h4>
         <h2 class="sim">Brooklyn Simmons</h2>
@@ -129,17 +156,20 @@
         <h4 class="paracon">
           Turpis facilisis tempor pulvinar in lobortis ornare magna.
         </h4>
-        <button class="frtname">First name</button>
-        <button class="frtname">Last name</button>
-        <button class="frtname">Email address</button>
-        <button class="frtname">Phone number</button>
-        <button class="desc">Description</button>
+        <form action="index.html">
+        <input class="frtname" type="text" placeholder="First name">
+        <input class="frtname" type="text" placeholder="Last name">
+        <input class="frtname" type="email" placeholder="Email address">
+        <input class="frtname" type="text" placeholder="Phone number">
+        <textarea class="desc" rows="4" cols="50" placeholder="Description"></textarea>
         <div class="getpara">
-          <button class="quote">Get a quote</button>
+          <button type="submit" class="quote">Get a quote</button>
           <h4 class="spam">We don’t sell your email and spam</h4>
         </div>
+        </form>
       </div>
     </div>
+  </div>
 
     <!--------------------page sixth tags-------------------------------->
 
@@ -149,8 +179,7 @@
         <div class="identify">
           <img class="locate" src="./images/location.png" />
           <h3 class="address">
-            2118 Thornridge Cir.<br />
-            Dubai, UAE 35624
+            2118 Thornridge Cir. Dubai,<br/> UAE 35624
           </h3>
         </div>
         <div class="identify">
@@ -189,5 +218,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
